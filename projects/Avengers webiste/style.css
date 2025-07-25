@@ -1,0 +1,118 @@
+.gallery img{
+    width: 100%;
+}
+h2{
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+}
+.page2 h2{
+    color: darkgrey;
+}
+.page2 h4{
+    color: darkgrey;
+}
+h4{
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    color:red;
+    font-style: italic;
+    
+}
+.page2 #menu{
+    width: "100%";
+    height: 40px;
+    background-color:darkgray;
+    padding-top: 12px;
+}
+.page2 #menu a:hover{
+    color: darkcyan;
+}
+.page3 h2{
+    color: darkgreen;
+}
+.page3 h4{
+    color: darkgreen;
+}
+.page3 #menu{
+    width: "100%";
+    height: 40px;
+    background-color: darkgreen;
+    padding-top: 12px;
+}
+.page3 #menu a:hover{
+    color:green;
+}
+.page4 h2{
+    color: purple;
+}
+.page4 h4{
+    color: purple;
+}
+.page4 #menu{
+    width: "100%";
+    height: 40px;
+    background-color:purple;
+    padding-top: 12px;
+}
+.page4 #menu a:hover{
+    color: plum;
+}
+.page5 h2{
+    color: silver;
+}
+.page5 h4{
+    color: silver;
+}
+.page5 #menu{
+    width: "100%";
+    height: 40px;
+    background-color:silver;
+    padding-top: 12px;
+}
+.page5 #menu a:hover{
+    color: darkblue;
+}
+.page6 h2{
+    color: coral;
+}
+.page6 h4{
+    color: coral;
+}
+.page6 #menu{
+    width: "100%";
+    height: 40px;
+    background-color:coral;
+    padding-top: 12px;
+}
+.page6 #menu a:hover{
+    color: orange;
+}
+p{
+    font-family: Helvetica, sans-serif;
+}
+#menu{
+    width: "100%";
+    height: 40px;
+    background-color: red;
+    padding-top: 12px;
+    
+}
+#menu a{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+        
+}
+#menu a:hover{
+    color: darkred;
+}

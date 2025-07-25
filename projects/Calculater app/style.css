@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    background-color: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Make the table responsive */
+table {
+    width: 90%;
+    max-width: 400px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Input box styling */
+#inputBox {
+    width: 100%;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: #fff0f5;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Button cell styling */
+td {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    user-select: none;
+}
+
+/* Light pink for digit buttons */
+td:nth-child(-n+3),
+td[colspan="2"] {
+    background-color: #ffc0cb;
+}
+
+/* Dark pink for operator buttons */
+td:last-child,
+td[onclick*="operatorBtnPressed"],
+td[onclick*="equalsBtnPressed"],
+td[onclick*="btnACPressed"] {
+    background-color: #d63384;
+    color: white;
+}
+
+/* Hover effects */
+td:hover {
+    background-color: #ffb6c1;
+}
+
+/* Special case for AC and = buttons */
+td[onclick*="btnACPressed"],
+td[onclick*="equalsBtnPressed"] {
+    background-color: #c2185b;
+}
+
+/* Button press effect */
+td:active {
+    transform: scale(0.98);
+}
