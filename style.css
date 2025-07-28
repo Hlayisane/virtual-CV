@@ -447,3 +447,81 @@ footer {
   0%, 100% { border-color: #e75480; }
   50% { border-color: transparent; }
 }
+
+/*mobile phone viewing*/
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .typing-text {
+    font-size: 2rem;
+    width: 100%;
+    max-width: 90vw;
+    text-align: center;
+    animation: typing 3s steps(20, end) forwards, blink 0.75s step-end 4;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  .profile-img,
+  #home img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .skill {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .project-card img {
+    height: 140px;
+  }
+
+  .achievements-list li {
+    font-size: 1rem;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .btn,
+  #contact a {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  #skills .skill-group:nth-of-type(5) .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 20px;
+  }
+}
